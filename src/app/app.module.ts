@@ -44,8 +44,8 @@ import { OktaAuthModule } from '@okta/okta-angular';
     OktaAuthModule.initAuth({
       issuer: 'https://dev-241565.okta.com/oauth2/default',
       redirectUri: 'http://localhost:4200/implicit/callback',
-      clientId: '{0oaboy49d6Z43lFyI356}'
-    })
+      clientId: '0oaboy49d6Z43lFyI356'
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
